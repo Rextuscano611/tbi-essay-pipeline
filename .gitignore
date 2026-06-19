@@ -1,0 +1,27 @@
+# Secret keys - NEVER commit these
+.env
+credentials.json
+
+# Downloaded essay data - too large + private
+data/
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files
+test_gemini.py
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Keep folder structure but ignore data files
+data/**
+!data/**/.gitkeep

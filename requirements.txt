@@ -1,0 +1,8 @@
+playwright
+google-generativeai
+gspread
+google-auth
+python-dotenv
+requests
+pillow
+pdf2image
